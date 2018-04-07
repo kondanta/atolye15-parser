@@ -1,0 +1,13 @@
+{
+  "name": "atolye15",
+  "version": "1.0.0",
+  "description": "Atolye15 intern camp",
+  "main": "main.js",
+  "scripts": {
+    "test": "node someting.js --opt",
+    "den": "sennen"
+  },
+  "author": "Taylan Dogan",
+  "license": "MIT",
+  "dependencies": {}
+}
