@@ -17,6 +17,9 @@ class JsonToYaml {
 		});
 	}
 
+	/**
+	 * Maps parsed data
+	 */
 	outputBuilder(data) {
 		const indent = "  ";
 		let output = "---\n";
@@ -73,8 +76,11 @@ class JsonToYaml {
 
 
 	// there thou go.
+	/**
+	 * Triggers all of the functions
+	 * @param  {Object} options input file and output file names
+	 */
 	init(options) {
-		console.log("%s", options.input);
 		this.fileReader(options.input, (err, data) => {
 			const x = this.parser(data, options);
 		});
